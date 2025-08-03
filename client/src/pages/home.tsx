@@ -435,7 +435,11 @@ export default function Home() {
       </section>
 
       {/* Product Highlights Section */}
-      <section id="product" ref={productRef} className="pt-2 pb-8 scroll-mt-20 ">
+      <section
+        id="product"
+        ref={productRef}
+        className="pt-2 pb-8 scroll-mt-20 "
+      >
         <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-2">
             <h2 className="product-headline text-4xl sm:text-5xl font-bold text-midnight mb-10">
@@ -583,9 +587,13 @@ export default function Home() {
 
           <div className="grid md:grid-cols-2 gap-8 max-w-4xl mx-auto">
             <div className="partner-card bg-gradient-to-br from-slate-50 to-white border-0 shadow-lg rounded-lg p-8">
-              <div className="flex items-center space-x-4 mb-4">
-                <div className="w-16 h-16 bg-teal rounded-full flex items-center justify-center">
-                  <Lightbulb className="w-8 h-8 text-white" />
+              <div className="flex items-center space-x-8 mb-4">
+                <div className="w-16 h-16 rounded-full flex items-center justify-center overflow-hidden bg-white border-2 border-gray-200">
+                  <img
+                    src="/srm-logo.png"
+                    alt="SRMIST Logo"
+                    className="w-20 h-20 object-contain"
+                  />
                 </div>
                 <div>
                   <h3 className="text-xl font-semibold text-midnight">
@@ -603,10 +611,10 @@ export default function Home() {
             <div className="partner-card bg-gradient-to-br from-slate-50 to-white border-0 shadow-lg rounded-lg p-8">
               <div className="flex items-center space-x-4 mb-4">
                 <div className="w-16 h-16 rounded-full flex items-center justify-center overflow-hidden bg-white border-2 border-gray-200">
-                  <img 
-                    src="/ihfc-logo.png" 
-                    alt="IHFC – IIT Delhi Logo" 
-                    className="w-14 h-14 object-contain"
+                  <img
+                    src="/ihfc-logo.png"
+                    alt="IHFC – IIT Delhi Logo"
+                    className="w-20 h-20 object-contain"
                   />
                 </div>
                 <div>
@@ -617,7 +625,8 @@ export default function Home() {
                 </div>
               </div>
               <p className="text-gray-700">
-                I-HUB FOUNDATION FOR COBOTICS (IHFC) Technology Innovation Hub of IIT Delhi
+                I-HUB FOUNDATION FOR COBOTICS (IHFC) Technology Innovation Hub
+                of IIT Delhi
               </p>
             </div>
           </div>
@@ -662,7 +671,7 @@ export default function Home() {
                 <h3 className="text-xl font-bold text-midnight">
                   Mr. VinothKumar GK
                 </h3>
-                <p className="text-teal font-semibold">Biomedical Engineer</p>
+                <p className="text-teal font-semibold">Business Entrepreneur</p>
               </div>
             </div>
           </div>
