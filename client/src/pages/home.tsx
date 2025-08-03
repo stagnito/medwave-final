@@ -613,8 +613,7 @@ export default function Home() {
                 </div>
               </div>
               <p className="text-gray-700">
-                Supported by the prestigious Industrial Health & Fitness Centre
-                at IIT Delhi
+                I-HUB FOUNDATION FOR COBOTICS (IHFC) Technology Innovation Hub of IIT Delhi
               </p>
             </div>
           </div>
