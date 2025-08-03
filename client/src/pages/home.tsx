@@ -602,8 +602,12 @@ export default function Home() {
 
             <div className="partner-card bg-gradient-to-br from-slate-50 to-white border-0 shadow-lg rounded-lg p-8">
               <div className="flex items-center space-x-4 mb-4">
-                <div className="w-16 h-16 bg-midnight rounded-full flex items-center justify-center">
-                  <Building className="w-8 h-8 text-white" />
+                <div className="w-16 h-16 rounded-full flex items-center justify-center overflow-hidden bg-white border-2 border-gray-200">
+                  <img 
+                    src="/ihfc-logo.png" 
+                    alt="IHFC – IIT Delhi Logo" 
+                    className="w-14 h-14 object-contain"
+                  />
                 </div>
                 <div>
                   <h3 className="text-xl font-semibold text-midnight">
